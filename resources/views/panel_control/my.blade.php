@@ -1,4 +1,4 @@
-@extends('component.layout')
+@extends('panel_control.components.layout')
 
 @section('title', 'Ecommerce Dashboard — Stisla')
 @section('movies-menu-active', 'active')

@@ -1,4 +1,4 @@
-@extends('component.layout')
+@extends('panel_control.components.layout')
 
 @section('title', 'Ecommerce Dashboard — Stisla')
 @section('movies-menu-active', 'active')
@@ -14,6 +14,7 @@
       <div class="col-12">
         <div class="card">
           <div class="card-header">
+            
             <h4>All Movies</h4>
           </div>
           <div class="card-body">
