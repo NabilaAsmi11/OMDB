@@ -26,7 +26,7 @@
               <img src="{{ asset('assets/img/stisla-fill.svg')}}" alt="logo" width="100" class="shadow-light rounded-circle">
             </div>
 
-            <div class="text-right mb-3">
+            <div class="text-center mb-3">
               <a href="{{ route('lang.switch', 'en') }}" class="btn btn-sm btn-outline-primary mr-1 {{ app()->getLocale() === 'en' ? 'active' : '' }}">EN</a>
               <a href="{{ route('lang.switch', 'id') }}" class="btn btn-sm btn-outline-primary {{ app()->getLocale() === 'id' ? 'active' : '' }}">ID</a>
             </div>
